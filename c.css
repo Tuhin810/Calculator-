@@ -52,10 +52,14 @@ body {
         border: none;
         border-radius: 9px;
         cursor: pointer;
-        background-color: #ff5200;
+        /* background-color: #ff5200; */
+        background:linear-gradient(144deg, #fba200 -9.18%, #bf0000 98.85%);
+        
+        
 }
 #clear:hover{
-    background-color: #ff5100a1;
+    
+    background: linear-gradient(144deg, #de0202 -9.18%, #5F0D89 98.85%);
 }
 #side {
     
@@ -68,10 +72,32 @@ body {
     cursor: pointer;
    
     background-color: #458afae3;
+    
 
 }
 #side:hover{
-    background-color: #8ab4f8;
+    /* background-color: #8ab4f8; */
+      background-color: #8ab4f8;
+}
+#sidea {
+
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #458afae3;
+    transition: 3s;
+
+    
+
+}
+
+#sidea:hover {
+    background: linear-gradient(150deg, #3e00cd -9.18%, #5F0D89 98.85%);
+
 }
 
 
@@ -89,7 +115,7 @@ body {
     border-radius: 5px;
     text-align: right;
     box-shadow: 1px 1px 15px gray;
-    background-color: rgb(240 248 255);
+    background-color: rgb(188, 221, 250);
     font-size: 30px;
 }
 :placeholder-shown{
